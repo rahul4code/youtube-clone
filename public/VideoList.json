@@ -1,0 +1,411 @@
+{
+    "kind": "youtube#videoListResponse",
+    "etag": "UA0ggu3lxy27n2K-41WVSu3Y1hY",
+    "items": [
+      {
+        "kind": "youtube#video",
+        "etag": "D5nqnFNIs5Xr1ECiJOtpbEYgc6I",
+        "id": "kRsAOW2zE20",
+        "snippet": {
+          "publishedAt": "2023-06-06T19:05:04Z",
+          "channelId": "UCo_IB5145EVNcf8hw1Kku7w",
+          "title": "Game Theory: FNAF, I SOLVED Ruin! (Security Breach)",
+          "description": "Game Theory Is Now On Spotify!\nCheck Out Some Of Your Favorite Episodes On Spotify! ► https://tinyurl.com/GameTheorySpotify\n\nLoyal Theorists, today I'm tackling one of the most recent FNAF BOMBSHELLS. The recent reveals of The Mimic, The Storyteller, and GGY have set the FNAF community ablaze. What does all this mean? You mean MatPat was RIGHT when he kept saying that the books were important? How does this all tie into Ruin and the larger FNAF story? Well, I'm here to answer all of those questions for you friends. So sit down in front of the HUGE white tiger animatronic... because it's time for a STORY! \n\nThe game on Steam ► https://store.steampowered.com/app/747660/Five_Nights_at_Freddys_Security_Breach/\n\nCheck Out My Coverage Of The RUIN Trailer On @GTLive  ► https://youtu.be/oHtHnrc9yVc\n‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐\n*🔽 Don’t Miss Out!*\nGet Your TheoryWear! ► https://theorywear.com/\nDive into the Reddit! ► https://www.reddit.com/r/GameTheorists/\n\nNeed Royalty Free Music for your Content? Try Epidemic Sound.\nGet Your 30 Day Free Trial Now ► http://share.epidemicsound.com/MatPat\n‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐\n*👀 Watch MORE Theories:*\nFNAF, The ULTIMATE Timeline (Part 1) ►► https://youtu.be/gWOXSh4-Iuc\nFNAF, Origins Of Evil ►► https://youtu.be/ZfomNvIEX74\nFNAF, Golden Freddy Never Existed ►► https://youtu.be/TKuQ8Zkatd8\n‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐\n*SUBSCRIBE to Game Theory!*\nhttps://www.youtube.com/@GameTheory/?sub_confirmation=1\n‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐\n*Join Our Other YouTube Channels!*\n\u200b🎥 @FilmTheory \n🍔 @FoodTheory \n👔 @StyleTheorists \n‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐\n*Credits:*\nWriters: Matthew Patrick and Tom Robinson\nEditors: Dan \"Cybert\" Seibert, Tyler Mascola, Koen Verhagen, Warak, and KL Allen\nSound Designer: Yosi Berman\nThumbnail Artist: DasGnomo\n‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐\n#FNAF #FiveNightsAtFreddys #FNAFRuin #RuinDLC #FNAFSB #FNAFLore #FNAFTheory #FNAFSecurityBreach #Theory #GameTheory #Matpat",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/kRsAOW2zE20/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/kRsAOW2zE20/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/kRsAOW2zE20/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/kRsAOW2zE20/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/kRsAOW2zE20/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "The Game Theorists",
+          "tags": [
+            "fnaf security breach",
+            "fnaf theory",
+            "fnaf security breach ruin",
+            "fnaf security breach dlc",
+            "fnaf",
+            "five nights at freddys",
+            "fnaf ruin",
+            "five nights at freddys ruin trailer",
+            "fnaf ruin trailer",
+            "fnaf ruin theory",
+            "ruin",
+            "ruin explained",
+            "ruin theory",
+            "fnaf dlc",
+            "security breach",
+            "fnaf mimic",
+            "fnaf mimic explained",
+            "fnaf storyteller",
+            "storyteller",
+            "fnaf ruin prediction",
+            "fnaf prediction",
+            "fnaf story explained",
+            "game theorists",
+            "matpat",
+            "game theory",
+            "fnaf dlc prediction",
+            "fnaf ruin dlc",
+            "fnaf trailer"
+          ],
+          "categoryId": "20",
+          "liveBroadcastContent": "none",
+          "defaultLanguage": "en",
+          "localized": {
+            "title": "Game Theory: FNAF, I SOLVED Ruin! (Security Breach)",
+            "description": "Game Theory Is Now On Spotify!\nCheck Out Some Of Your Favorite Episodes On Spotify! ► https://tinyurl.com/GameTheorySpotify\n\nLoyal Theorists, today I'm tackling one of the most recent FNAF BOMBSHELLS. The recent reveals of The Mimic, The Storyteller, and GGY have set the FNAF community ablaze. What does all this mean? You mean MatPat was RIGHT when he kept saying that the books were important? How does this all tie into Ruin and the larger FNAF story? Well, I'm here to answer all of those questions for you friends. So sit down in front of the HUGE white tiger animatronic... because it's time for a STORY! \n\nThe game on Steam ► https://store.steampowered.com/app/747660/Five_Nights_at_Freddys_Security_Breach/\n\nCheck Out My Coverage Of The RUIN Trailer On @GTLive  ► https://youtu.be/oHtHnrc9yVc\n‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐\n*🔽 Don’t Miss Out!*\nGet Your TheoryWear! ► https://theorywear.com/\nDive into the Reddit! ► https://www.reddit.com/r/GameTheorists/\n\nNeed Royalty Free Music for your Content? Try Epidemic Sound.\nGet Your 30 Day Free Trial Now ► http://share.epidemicsound.com/MatPat\n‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐\n*👀 Watch MORE Theories:*\nFNAF, The ULTIMATE Timeline (Part 1) ►► https://youtu.be/gWOXSh4-Iuc\nFNAF, Origins Of Evil ►► https://youtu.be/ZfomNvIEX74\nFNAF, Golden Freddy Never Existed ►► https://youtu.be/TKuQ8Zkatd8\n‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐\n*SUBSCRIBE to Game Theory!*\nhttps://www.youtube.com/@GameTheory/?sub_confirmation=1\n‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐\n*Join Our Other YouTube Channels!*\n\u200b🎥 @FilmTheory \n🍔 @FoodTheory \n👔 @StyleTheorists \n‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐\n*Credits:*\nWriters: Matthew Patrick and Tom Robinson\nEditors: Dan \"Cybert\" Seibert, Tyler Mascola, Koen Verhagen, Warak, and KL Allen\nSound Designer: Yosi Berman\nThumbnail Artist: DasGnomo\n‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐\n#FNAF #FiveNightsAtFreddys #FNAFRuin #RuinDLC #FNAFSB #FNAFLore #FNAFTheory #FNAFSecurityBreach #Theory #GameTheory #Matpat"
+          },
+          "defaultAudioLanguage": "en"
+        },
+        "contentDetails": {
+          "duration": "PT20M4S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular"
+        },
+        "statistics": {
+          "viewCount": "2356040",
+          "likeCount": "134834",
+          "favoriteCount": "0",
+          "commentCount": "6582"
+        }
+      },
+      {
+        "kind": "youtube#video",
+        "etag": "PME5HzXJwH7dXORv4V-DB9OcKJA",
+        "id": "Wyb0ExKOE4w",
+        "snippet": {
+          "publishedAt": "2023-06-07T01:02:43Z",
+          "channelId": "UCT2X19JJaJGUN7mrYuImANQ",
+          "title": "Golden Buzzer: Putri Ariani receives the GOLDEN BUZZER from Simon Cowell | Auditions | AGT 2023",
+          "description": "17-year-old Putri Ariani from Indonesia has the voice of an angel! Watch as Simon Cowell goes on stage to ask for a second song from Putri. \n\n» Get The America's Got Talent App: http://bit.ly/AGTAppDownload\n» Subscribe for More: http://bit.ly/AGTSub\n» Watch on NBC & Peacock: https://pck.tv/3cCQGhH\n\nAMERICA'S GOT TALENT ON SOCIAL\nLike AGT: https://www.facebook.com/agt\nFollow AGT: https://twitter.com/agt\nAGT Instagram: http://instagram.com/agt\n\nThe 18th season of \"America's Got Talent\" returns with a new set of aspiring performers looking to compete for the ultimate $1 million prize. Executive Producer Simon Cowell returns to the star-studded judging panel with global fashion icon Heidi Klum, fan-favorite comedian Howie Mandel and acclaimed actress and international superstar Sofia Vergara. The dynamic Terry Crews returns as host. This season promises to deliver some of the wildest acts to ever grace the \"AGT\" stage.\n\nFind America's Got Talent trailers, full episode highlights, previews, promos, clips, and digital exclusives here.\n\nNBC ON SOCIAL:\nYouTube: http://www.youtube.com/nbc\nTwitter: http://Twitter.com/NBC\nFacebook: http://Facebook.com/NBC\nInstagram: http://instagram.com/nbc\n\nGolden Buzzer: Putri Ariani receives the GOLDEN BUZZER from Simon Cowell | Auditions | AGT 2023\nhttps://youtu.be/Wyb0ExKOE4w\n\nAmerica's Got Talent\nhttp://www.youtube.com/user/americasgottalent\n#AGT #AmericasGotTalent #Auditions",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Wyb0ExKOE4w/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Wyb0ExKOE4w/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Wyb0ExKOE4w/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Wyb0ExKOE4w/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/Wyb0ExKOE4w/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "America's Got Talent",
+          "tags": [
+            "America's Got Talent",
+            "AGT",
+            "Got Talent",
+            "AGT 2023",
+            "Got Talent 2023",
+            "America's Got Talent 2023",
+            "Auditions",
+            "AGT Auditions",
+            "America's Got Talent Auditions",
+            "AGT New Season",
+            "Putri Ariani",
+            "Golden Buzzer",
+            "AGT Golden Buzzer",
+            "Golden Buzzer 2023",
+            "Simon Cowell's Golden Buzzer",
+            "Putri Ariani AGT",
+            "Putri AGT",
+            "Indonesia's Got Talent",
+            "Indonesian Singer",
+            "Second Song",
+            "Simon asks for a Second Song",
+            "Simon Golden Buzzer",
+            "Golden Buzzer America's Got Talent",
+            "Singers",
+            "Best Singers",
+            "AGT Singers"
+          ],
+          "categoryId": "24",
+          "liveBroadcastContent": "none",
+          "localized": {
+            "title": "Golden Buzzer: Putri Ariani receives the GOLDEN BUZZER from Simon Cowell | Auditions | AGT 2023",
+            "description": "17-year-old Putri Ariani from Indonesia has the voice of an angel! Watch as Simon Cowell goes on stage to ask for a second song from Putri. \n\n» Get The America's Got Talent App: http://bit.ly/AGTAppDownload\n» Subscribe for More: http://bit.ly/AGTSub\n» Watch on NBC & Peacock: https://pck.tv/3cCQGhH\n\nAMERICA'S GOT TALENT ON SOCIAL\nLike AGT: https://www.facebook.com/agt\nFollow AGT: https://twitter.com/agt\nAGT Instagram: http://instagram.com/agt\n\nThe 18th season of \"America's Got Talent\" returns with a new set of aspiring performers looking to compete for the ultimate $1 million prize. Executive Producer Simon Cowell returns to the star-studded judging panel with global fashion icon Heidi Klum, fan-favorite comedian Howie Mandel and acclaimed actress and international superstar Sofia Vergara. The dynamic Terry Crews returns as host. This season promises to deliver some of the wildest acts to ever grace the \"AGT\" stage.\n\nFind America's Got Talent trailers, full episode highlights, previews, promos, clips, and digital exclusives here.\n\nNBC ON SOCIAL:\nYouTube: http://www.youtube.com/nbc\nTwitter: http://Twitter.com/NBC\nFacebook: http://Facebook.com/NBC\nInstagram: http://instagram.com/nbc\n\nGolden Buzzer: Putri Ariani receives the GOLDEN BUZZER from Simon Cowell | Auditions | AGT 2023\nhttps://youtu.be/Wyb0ExKOE4w\n\nAmerica's Got Talent\nhttp://www.youtube.com/user/americasgottalent\n#AGT #AmericasGotTalent #Auditions"
+          },
+          "defaultAudioLanguage": "en-US"
+        },
+        "contentDetails": {
+          "duration": "PT12M58S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular"
+        },
+        "statistics": {
+          "viewCount": "8275264",
+          "likeCount": "576310",
+          "favoriteCount": "0",
+          "commentCount": "69566"
+        }
+      },
+      {
+        "kind": "youtube#video",
+        "etag": "Yb98fCUIjLuGjUInEKsuuFhfRWg",
+        "id": "OFvXuyITwBI",
+        "snippet": {
+          "publishedAt": "2023-06-06T06:39:07Z",
+          "channelId": "UCBJycsmduvYEL83R_U4JriQ",
+          "title": "Apple Vision Pro Impressions!",
+          "description": "I tried Apple's first ever spatial computing device, a $3500 VR headset. These are my honest thoughts.\n\nGoogle Project Starline: https://youtu.be/J1oEWiUsKgU\n\nThe podcast: https://youtube.com/waveform\n\nThat shirt! http://shop.MKBHD.com\n\nTech I'm using right now: https://www.amazon.com/shop/MKBHD\n\nIntro Track: Jordyn Edmonds http://smarturl.it/jordynedmonds\u200b\u200b\u200b\u200b\u200b \nPlaylist of MKBHD Intro music: https://goo.gl/B3AWV5\n\n~\nhttp://twitter.com/MKBHD\nhttp://instagram.com/MKBHD\nhttp://facebook.com/MKBHD",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/OFvXuyITwBI/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/OFvXuyITwBI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/OFvXuyITwBI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/OFvXuyITwBI/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/OFvXuyITwBI/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Marques Brownlee",
+          "tags": [
+            "Apple Vision Pro",
+            "Vision Pro",
+            "Apple VR headset",
+            "MKBHD",
+            "hands on",
+            "Vision Pro impressions",
+            "Apple Vision Pro impressions"
+          ],
+          "categoryId": "28",
+          "liveBroadcastContent": "none",
+          "localized": {
+            "title": "Apple Vision Pro Impressions!",
+            "description": "I tried Apple's first ever spatial computing device, a $3500 VR headset. These are my honest thoughts.\n\nGoogle Project Starline: https://youtu.be/J1oEWiUsKgU\n\nThe podcast: https://youtube.com/waveform\n\nThat shirt! http://shop.MKBHD.com\n\nTech I'm using right now: https://www.amazon.com/shop/MKBHD\n\nIntro Track: Jordyn Edmonds http://smarturl.it/jordynedmonds\u200b\u200b\u200b\u200b\u200b \nPlaylist of MKBHD Intro music: https://goo.gl/B3AWV5\n\n~\nhttp://twitter.com/MKBHD\nhttp://instagram.com/MKBHD\nhttp://facebook.com/MKBHD"
+          },
+          "defaultAudioLanguage": "en-US"
+        },
+        "contentDetails": {
+          "duration": "PT20M11S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "true",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular"
+        },
+        "statistics": {
+          "viewCount": "11112980",
+          "likeCount": "423002",
+          "favoriteCount": "0",
+          "commentCount": "34003"
+        }
+      },
+      {
+        "kind": "youtube#video",
+        "etag": "TPF4hYTmqZSj4GoEJY9HmCVS0X8",
+        "id": "TX9qSaGXFyg",
+        "snippet": {
+          "publishedAt": "2023-06-05T19:08:16Z",
+          "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+          "title": "Introducing Apple Vision Pro",
+          "description": "The era of spatial computing is here, where digital content blends seamlessly with your physical space. So you can do the things you love in ways never before possible. This is Apple Vision Pro.\n\nLearn More: https://apple.co/43DmFHf\n\nAudio Descriptions: https://apple.co/441jo4j\n\n00:00 Introduction\n01:35 Photos and videos\n02:41 Entertainment\n03:38 Work\n04:21 FaceTime\n05:39 Design\n07:09 Technology\n08:45 Ending\n\n“Let's Live” by FKJ https://apple.co/FKJ\n\"Want Me Anyway\" by Aye June https://apple.co/AyeJune\n\"Transmit\" by Fyfe, Iskra Strings https://apple.co/FyfeIskraStrings\n\"New Horizons\" by Little Dragon\n\"A.I.\" by Hark Madley https://apple.co/HarkMadley\n\"Waves\" by StayLoose, Lucy Daydream https://apple.co/StaylooseLucyDaydream\n\"Free\" by Bakar https://apple.co/Bakar\n\n#AppleVisionPro #WWDC23 #AppleEvent\n\nWelcome to the official Apple YouTube channel. Here you’ll find news about product launches, tutorials, and other great content. Our more than 160,000 employees are dedicated to making the best products on earth, and to leaving the world better than we found it.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/TX9qSaGXFyg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/TX9qSaGXFyg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/TX9qSaGXFyg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/TX9qSaGXFyg/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/TX9qSaGXFyg/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Apple",
+          "tags": [
+            "Apple",
+            "Apple Vision Pro",
+            "spatial computing",
+            "spatial computer",
+            "spatial photos",
+            "spatial videos",
+            "spatial cinema",
+            "Apple 3D Camera",
+            "Infinite Canvas",
+            "Environments",
+            "FaceTime",
+            "EyeSight",
+            "visionOS",
+            "Spatial Audio",
+            "Light Seal",
+            "Head Band",
+            "M2 Chip",
+            "R1 Chip",
+            "Dual-Chip Performance",
+            "23 million pixels",
+            "Audio Raytracing",
+            "Digital Crown",
+            "Persona",
+            "Micro-OLED Display",
+            "All-day Use",
+            "High-performance battery",
+            "augmented reality",
+            "spatial interface",
+            "apps",
+            "entertainment",
+            "gaming"
+          ],
+          "categoryId": "28",
+          "liveBroadcastContent": "none",
+          "localized": {
+            "title": "Introducing Apple Vision Pro",
+            "description": "The era of spatial computing is here, where digital content blends seamlessly with your physical space. So you can do the things you love in ways never before possible. This is Apple Vision Pro.\n\nLearn More: https://apple.co/43DmFHf\n\nAudio Descriptions: https://apple.co/441jo4j\n\n00:00 Introduction\n01:35 Photos and videos\n02:41 Entertainment\n03:38 Work\n04:21 FaceTime\n05:39 Design\n07:09 Technology\n08:45 Ending\n\n“Let's Live” by FKJ https://apple.co/FKJ\n\"Want Me Anyway\" by Aye June https://apple.co/AyeJune\n\"Transmit\" by Fyfe, Iskra Strings https://apple.co/FyfeIskraStrings\n\"New Horizons\" by Little Dragon\n\"A.I.\" by Hark Madley https://apple.co/HarkMadley\n\"Waves\" by StayLoose, Lucy Daydream https://apple.co/StaylooseLucyDaydream\n\"Free\" by Bakar https://apple.co/Bakar\n\n#AppleVisionPro #WWDC23 #AppleEvent\n\nWelcome to the official Apple YouTube channel. Here you’ll find news about product launches, tutorials, and other great content. Our more than 160,000 employees are dedicated to making the best products on earth, and to leaving the world better than we found it."
+          },
+          "defaultAudioLanguage": "en"
+        },
+        "contentDetails": {
+          "duration": "PT9M22S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "true",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular"
+        },
+        "statistics": {
+          "viewCount": "24541822",
+          "likeCount": "318052",
+          "favoriteCount": "0"
+        }
+      },
+      {
+        "kind": "youtube#video",
+        "etag": "o0XdMEzTa9sIPtQ9rkUr8mjk4r0",
+        "id": "-5zGuFPxW88",
+        "snippet": {
+          "publishedAt": "2023-06-07T00:30:00Z",
+          "channelId": "UCq6VFHwMzcMXbuKyG7SQYIg",
+          "title": "Twitch Is Dead",
+          "description": "This is the greatest awful policy change of All Time\nMerch https://moistglobal.com/",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/-5zGuFPxW88/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/-5zGuFPxW88/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/-5zGuFPxW88/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/-5zGuFPxW88/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          "channelTitle": "penguinz0",
+          "categoryId": "24",
+          "liveBroadcastContent": "none",
+          "localized": {
+            "title": "Twitch Is Dead",
+            "description": "This is the greatest awful policy change of All Time\nMerch https://moistglobal.com/"
+          }
+        },
+        "contentDetails": {
+          "duration": "PT18M10S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular"
+        },
+        "statistics": {
+          "viewCount": "4798599",
+          "likeCount": "240453",
+          "favoriteCount": "0",
+          "commentCount": "17834"
+        }
+      }
+    ],
+    "nextPageToken": "CAUQAA",
+    "pageInfo": {
+      "totalResults": 200,
+      "resultsPerPage": 5
+    }
+  }
+  
