@@ -1,22 +1,16 @@
 import React from "react";
-import Header from "./layout/Header";
-import Footer from "./layout/Footer";
 import Sidebar from "./layout/Sidebar";
-import CardContainer from "./CardContainer";
 import { useSelector } from "react-redux";
+import { Outlet } from "react-router-dom";
 
 const Body = () => {
-
-  const isToggle=useSelector(state=> state.isToggle)
-
+  const isSidebarOpen=useSelector(state=> state.isSidebarOpen)
   return (
     <>
-      <Header />
       <div className="flex">
-        {isToggle &&  <Sidebar />}
-        <CardContainer />
+        {isSidebarOpen &&  <Sidebar />}
+        <Outlet/>
       </div>
-      <Footer />
     </>
   );
 };

@@ -3,15 +3,21 @@ import { createSlice } from "@reduxjs/toolkit";
 const navSlice=createSlice({
     name:'navSlice',
     initialState:{
-        isToggle:true
+        isSidebarOpen:true
     },
     reducers:{
         toggleSidebar:(state)=>{
-            state.isToggle=!state.isToggle
+            state.isSidebarOpen=!state.isSidebarOpen
+        },
+        closeSidebar:(state)=>{
+            state.isSidebarOpen=false;
+        },
+        openSidebar:(state)=>{
+            state.isSidebarOpen=true;
         }
     }
 })
 
-export const {toggleSidebar}=navSlice.actions;
+export const {toggleSidebar, closeSidebar, openSidebar}=navSlice.actions;
 export default navSlice.reducer;
 

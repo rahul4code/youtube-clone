@@ -1,25 +1,30 @@
 import React from "react";
 import { AiFillHome } from "react-icons/ai";
-import { MdOutlineSlowMotionVideo, MdOutlineLocalMovies, MdOutlineWorkspacePremium } from "react-icons/md";
+import {
+  MdOutlineSlowMotionVideo,
+  MdOutlineLocalMovies,
+  MdOutlineWorkspacePremium,
+} from "react-icons/md";
 import { AiOutlineVideoCameraAdd } from "react-icons/ai";
 import { LuLibrary } from "react-icons/lu";
 import { GoHistory } from "react-icons/go";
 import { GiTrousers } from "react-icons/gi";
 import { FaShoppingBag } from "react-icons/fa";
-import {BiTrendingUp} from "react-icons/bi"
+import { BiTrendingUp } from "react-icons/bi";
 import { BsMusicNote, BsTrophy, BsLightbulb } from "react-icons/bs";
 import { SiYoutubegaming, SiEclipsemosquitto } from "react-icons/si";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
-    <div
-      className="w-60 hover:overflow-y-scroll overflow-hidden"
-    >
+    <div className="fixed z-10 top-14 left-0 bg-white hover:overflow-y-scroll overflow-hidden">
       <div className="w-52 mx-3 mb-3 h-[100vh] ">
         <ul className="py-3 px-1">
-          <li className="flex gap-4 p-2 bg-[#f2f2f2] rounded-lg">
-            <AiFillHome className="text-2xl" />
-            <span className="font-semibold">Home</span>
+          <li>
+            <Link to="/" className="flex gap-4 p-2 bg-[#f2f2f2] rounded-lg">
+              <AiFillHome className="text-2xl" />
+              <span className="font-semibold">Home</span>
+            </Link>
           </li>
           <li className="flex gap-4 p-2">
             <MdOutlineSlowMotionVideo className="text-2xl" />
@@ -91,11 +96,11 @@ const Sidebar = () => {
           <span className="p-2 text-lg font-medium">More from YouTube</span>
           <li className="flex gap-4 p-2 mt-2">
             <MdOutlineWorkspacePremium className="text-2xl" />
-            <span className="">Youtube Premium</span>
+            <span>Youtube Premium</span>
           </li>
           <li className="flex gap-4 p-2">
             <MdOutlineSlowMotionVideo className="text-2xl" />
-            <span className="">YouTube Music</span>
+            <span>YouTube Music</span>
           </li>
         </ul>
         <hr />
