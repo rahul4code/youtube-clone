@@ -1,13 +1,16 @@
 import React from "react";
-import Shimmer from "./ShimmerCard";
+import ShimmerCard from "./ShimmerCard";
+import {useSelector} from "react-redux"
 
 const ShimmerContainer = () => {
-  const items = Array(10).fill(null);
+  const items = Array(12).fill(null);
+
+  const isSidebarOpen=useSelector(store=>store.isSidebarOpen)
 
   return (
-    <div className="flex flex-wrap gap-5 justify-normal">
+    <div className={isSidebarOpen ? "flex flex-wrap mx-[5rem] py-5 gap-4" : "flex flex-wrap mx-5 py-2 gap-4"}>
       {items.map((item) => (
-        <Shimmer />
+        <ShimmerCard />
       ))}
     </div>
   );

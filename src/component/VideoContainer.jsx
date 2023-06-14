@@ -4,10 +4,12 @@ import VideoCard from "./VideoCard";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { openSidebar } from "../slices/navSlice";
-import ShimmerContainer from "../shimmer/ShimmerContainer";
+import HomeShimmer from "../shimmer/HomeShimmer";
+import {useSelector} from "react-redux";
 
 const VideoContainer = () => {
   const [videoList, setVideoList] = useState([]);
+  const isSidebarOpen=useSelector(store=>store.isSidebarOpen)
   const dispatch = useDispatch();
   useEffect(() => {
     getVideoList();
@@ -25,22 +27,22 @@ const VideoContainer = () => {
   };
 
   return (
-    <div className="relative ml-56">
+    <div className={isSidebarOpen ? "relative ml-56" : "relative"}>
       {videoList?.length > 0 ? (
         <>
           <div className="px-8 top-14 sticky">
             <NavPills />
           </div>
-            <div className="flex flex-wrap mx-10 py-2">
+            <div className={isSidebarOpen ? "flex flex-wrap mx-16 py-2" : "flex flex-wrap mx-5 py-2"}>
               {videoList?.map((video) => (
-                <Link to={"watch?" + video?.id}>
+                <Link to={"watch?v=" + video?.id}>
                   <VideoCard {...video} key={video?.id} />
                 </Link>
               ))}
             </div>
         </>
       ) : (
-        <ShimmerContainer />
+        <HomeShimmer />
       )}
     </div>
   );

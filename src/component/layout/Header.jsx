@@ -10,14 +10,13 @@ import { toggleSidebar } from "../../slices/navSlice";
 const Header = () => {
 
   const dispatch=useDispatch();
-  
 
   const handleToggle=()=>{
     dispatch(toggleSidebar())
   }
 
   return (
-    <div className="grid grid-cols-4 sticky top-0 bg-white">
+    <div className="grid grid-cols-4 sticky top-0 z-10 bg-white">
       <div className="col-span-1 flex gap-6 px-6 py-4">
         <FiMenu className="text-xl cursor-pointer" onClick={handleToggle}/>
         <img
@@ -26,11 +25,11 @@ const Header = () => {
           className="w-auto h-5"
         />
       </div>
-      <div className="col-span-2 flex px-7 py-2">
+      <div className="col-span-2 flex py-2 justify-center">
         <input
-          className="w-3/4 h-10 rounded-l-full border border-gray-300"
+          className="w-[70%] h-10 rounded-l-full border border-gray-400 shadow-inner pl-4 before:bg-red-500"
           type="text"
-          placeholder="  Search"
+          placeholder="Search"
         />
         <button className="px-5 py-3 w-16 rounded-r-full border h-10 border-gray-200 bg-gray-100">
           <SlMagnifier />

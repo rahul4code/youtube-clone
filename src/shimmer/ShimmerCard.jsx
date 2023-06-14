@@ -1,9 +1,9 @@
 import React from "react";
 
-const Shimmer = () => {
+const ShimmerCard = () => {
   return (
-    <div className="w-[360px]">
-      <div className="h-56 w-[360px] rounded-lg bg-gray-300"></div>
+    <div className="w-[359px]">
+      <div className="h-56 rounded-lg bg-gray-300"></div>
       <div className="flex py-3 gap-2 ">
         <div className="h-10 w-10 rounded-full bg-gray-300"></div>
         <ul className="">
@@ -15,4 +15,4 @@ const Shimmer = () => {
   );
 };
 
-export default Shimmer;
+export default ShimmerCard;

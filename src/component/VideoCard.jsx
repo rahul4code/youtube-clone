@@ -25,7 +25,7 @@ const VideoCard = (videoData) => {
   };
 
   return (
-    <div className="w-[359px] p-5 content-around" key={id}>
+    <div className="w-[359px] p-5 ml-2 content-around" key={id}>
       <img
         className="rounded-lg max-w-sm"
         alt="VideoThumbnail"

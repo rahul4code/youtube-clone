@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const navSlice=createSlice({
     name:'navSlice',
     initialState:{
-        isSidebarOpen:true
+        isSidebarOpen:false
     },
     reducers:{
         toggleSidebar:(state)=>{
