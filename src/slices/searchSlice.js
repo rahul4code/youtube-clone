@@ -8,9 +8,13 @@ const searchSlice=createSlice({
     reducers:{
         addSuggestion:(state, action)=>{
             state.searchSuggestions={...state.searchSuggestions, ...action.payload }
+        },
+        removeSuggestion:(state, action)=>{
+            const deleteKeys=Object.keys(state.searchSuggestions)?.slice(0,action.payload)
+            state.searchSuggestions=deleteKeys.forEach(key=> delete state.searchSuggestions[key])
         }
     }
 })
 
-export const {addSuggestion} = searchSlice.actions;
+export const {addSuggestion, removeSuggestion} = searchSlice.actions;
 export default searchSlice.reducer;

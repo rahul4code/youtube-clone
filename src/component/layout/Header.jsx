@@ -8,7 +8,7 @@ import Search from "../search/Search";
 import SearchContext from "../../utils/SearchContext";
 import SearchSuggestion from "../search/SearchSuggestion";
 import { useEffect } from "react";
-import { addSuggestion } from "../../slices/searchSlice";
+import { addSuggestion, removeSuggestion } from "../../slices/searchSlice";
 import { useSelector } from "react-redux";
 
 const Header = () => {
@@ -27,6 +27,7 @@ const Header = () => {
     dispatch(toggleSidebar());
   };
 
+  console.log(Object.keys(cachedSuggestion)?.length, "hahahah")
   useEffect(() => {
     // Used debouncing to delay the API call
     const timer = setTimeout(() => {
@@ -68,6 +69,9 @@ const Header = () => {
       }));
 
       if (searchObject?.searchValue) {
+        if (Object.keys(cachedSuggestion)?.length > 10) {
+          dispatch(removeSuggestion(10));
+        }
         dispatch(addSuggestion({ [searchObject?.searchValue]: topSuggestion }));
       }
     } catch (err) {
