@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { BsDot } from "react-icons/bs";
+import { calculateCount } from "../utils/calculateCount";
 
 const VideoCard = (videoData) => {
   const [channelData, setChannelData] = useState({});
@@ -51,7 +52,7 @@ const VideoCard = (videoData) => {
               "Today's Stock Market News - 08/06/2023 | Aaj ki Taaza Khabar"}
           </li>
           <li className="text-gray-600 text-sm flex">
-            <span>{statistics?.viewCount || "2.5"} Views</span>
+            <span>{calculateCount(statistics?.viewCount) || "2.5"} Views</span>
             <BsDot className="font-bold my-1 text-lg" />{" "}
             <span>{snippet?.publishedAt}</span>
           </li>

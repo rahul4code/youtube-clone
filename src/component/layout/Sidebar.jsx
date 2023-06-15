@@ -16,7 +16,7 @@ import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
-    <div className="fixed z-10 top-14 left-0 bottom-0 bg-white hover:overflow-y-scroll overflow-hidden">
+    <div className="fixed z-10 top-14 left-0 bottom-0 bg-white hover:overflow-y-scroll">
       <div className="w-52 mx-3 mb-3 h-[100vh] text-sm">
         <ul className="py-3 px-1">
           <li>

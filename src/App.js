@@ -5,7 +5,7 @@ import store from "./utils/store";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Header from "./component/layout/Header";
 import Footer from "./component/layout/Footer";
-import WatchVideo from "./component/WatchVideo";
+import WatchVideo from "./component/watch/WatchVideo";
 import VideoContainer from "./component/VideoContainer";
 
 function App() {

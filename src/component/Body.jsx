@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import { Outlet } from "react-router-dom";
 
 const Body = () => {
-  const isSidebarOpen=useSelector(state=> state.isSidebarOpen)
+  const isSidebarOpen=useSelector(state=> state.navigation.isSidebarOpen)
   return (
     <>
       <div className="flex">

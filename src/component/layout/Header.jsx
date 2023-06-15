@@ -1,43 +1,85 @@
-import React from "react";
+import React, { useState } from "react";
 import { FiMenu } from "react-icons/fi";
-import { BsMicFill } from "react-icons/bs";
-import { SlMagnifier } from "react-icons/sl";
 import { CiMenuKebab } from "react-icons/ci";
 import { HiOutlineUserCircle } from "react-icons/hi";
 import { useDispatch } from "react-redux";
 import { toggleSidebar } from "../../slices/navSlice";
+import Search from "../search/Search";
+import SearchContext from "../../utils/SearchContext";
+import SearchSuggestion from "../search/SearchSuggestion";
+import { useEffect } from "react";
 
 const Header = () => {
+  const [searchResults, setSearchResults] = useState([]);
+  const [searchObject, setSearchObject] = useState({
+    searchValue: "",
+    showSuggestion: false,
+    suggestions: [],
+  });
+  const dispatch = useDispatch();
 
-  const dispatch=useDispatch();
+  const handleToggle = () => {
+    dispatch(toggleSidebar());
+  };
 
-  const handleToggle=()=>{
-    dispatch(toggleSidebar())
-  }
+  useEffect(() => {
+    // Used debouncing to delay the API call
+    
+    const timer=setTimeout(()=>{
+      getSuggestions();
+    },500)
+    
+    return ()=>{
+      clearTimeout(timer);
+    }
+  }, [searchObject?.searchValue]);
+
+  const getSuggestions = async () => {
+    const url =
+      process.env.REACT_APP_MODE === "LOCAL"
+        ? `http://localhost:3000/suggestions.json`
+        : `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=${searchObject?.searchValue}&key=${process.env.REACT_APP_YOUTUBE_API_KEY}`;
+    try {
+      console.log("Called");
+      const data = await fetch(url);
+      if (!data.ok) {
+        throw new Error("Request failed with status", data.status);
+      }
+      const jsonData = await data.json();
+      await setSearchResults(jsonData);
+      const topSuggestion = await jsonData?.items
+        ?.slice(0, 7)
+        ?.map((item) => item?.snippet?.title);
+      await setSearchObject((prev) => ({
+        ...prev,
+        suggestions: topSuggestion,
+      }));
+    } catch (err) {
+      console.log(err);
+    }
+  };
 
   return (
     <div className="grid grid-cols-4 sticky top-0 z-10 bg-white">
       <div className="col-span-1 flex gap-6 px-6 py-4">
-        <FiMenu className="text-xl cursor-pointer" onClick={handleToggle}/>
+        <FiMenu className="text-xl cursor-pointer" onClick={handleToggle} />
+        {/* <Link to="/"> */}
         <img
+          onClick={() => (window.location.href = "/")}
           alt="logo"
           src="https://upload.wikimedia.org/wikipedia/commons/3/34/YouTube_logo_%282017%29.png"
-          className="w-auto h-5"
+          className="w-auto h-5 cursor-pointer"
         />
+        {/* </Link> */}
       </div>
-      <div className="col-span-2 flex py-2 justify-center">
-        <input
-          className="w-[70%] h-10 rounded-l-full border border-gray-400 shadow-inner pl-4 before:bg-red-500"
-          type="text"
-          placeholder="Search"
-        />
-        <button className="px-5 py-3 w-16 rounded-r-full border h-10 border-gray-200 bg-gray-100">
-          <SlMagnifier />
-        </button>
-        <BsMicFill className="h-10 text-lg ml-5"/>
+      <div className="col-span-2 py-2 justify-center">
+        <SearchContext.Provider value={{ searchObject, setSearchObject }}>
+          <Search />
+          {searchObject.showSuggestion && <SearchSuggestion />}
+        </SearchContext.Provider>
       </div>
       <div className="col-span-1 flex px-7 py-4 gap-2 justify-end">
-        <CiMenuKebab className="text-2xl mx-5"/>
+        <CiMenuKebab className="text-2xl mx-5" />
         <HiOutlineUserCircle className="text-2xl" /> Sign in
       </div>
     </div>

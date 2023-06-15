@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
-import NavPills from "./NavPills";
+import NavPills from "./navPills/NavPills";
 import VideoCard from "./VideoCard";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { openSidebar } from "../slices/navSlice";
-import HomeShimmer from "../shimmer/HomeShimmer";
+import HomeShimmer from "./shimmer/HomeShimmer";
 import {useSelector} from "react-redux";
 
 const VideoContainer = () => {
   const [videoList, setVideoList] = useState([]);
-  const isSidebarOpen=useSelector(store=>store.isSidebarOpen)
+  const isSidebarOpen=useSelector(store=>store.navigation.isSidebarOpen)
   const dispatch = useDispatch();
   useEffect(() => {
     getVideoList();
@@ -35,7 +35,7 @@ const VideoContainer = () => {
           </div>
             <div className={isSidebarOpen ? "flex flex-wrap mx-16 py-2" : "flex flex-wrap mx-5 py-2"}>
               {videoList?.map((video) => (
-                <Link to={"watch?v=" + video?.id}>
+                <Link to={"watch?v=" + video?.id} key={video?.id}>
                   <VideoCard {...video} key={video?.id} />
                 </Link>
               ))}

@@ -20,7 +20,7 @@ const NavPills = () => {
   return (
     <div className="flex gap-3 py-3 sticky top-14 bg-white">
       {pills?.map((pill) => (
-        <Button name={pill} />
+        <Button name={pill} key={pill}/>
       ))}
     </div>
   );
