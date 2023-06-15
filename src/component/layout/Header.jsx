@@ -8,9 +8,14 @@ import Search from "../search/Search";
 import SearchContext from "../../utils/SearchContext";
 import SearchSuggestion from "../search/SearchSuggestion";
 import { useEffect } from "react";
+import { addSuggestion } from "../../slices/searchSlice";
+import { useSelector } from "react-redux";
 
 const Header = () => {
   const [searchResults, setSearchResults] = useState([]);
+  const cachedSuggestion = useSelector(
+    (store) => store.suggestions.searchSuggestions
+  );
   const [searchObject, setSearchObject] = useState({
     searchValue: "",
     showSuggestion: false,
@@ -24,14 +29,21 @@ const Header = () => {
 
   useEffect(() => {
     // Used debouncing to delay the API call
-    
-    const timer=setTimeout(()=>{
-      getSuggestions();
-    },500)
-    
-    return ()=>{
+    const timer = setTimeout(() => {
+      // This condition is to read cache from redux store
+      if (cachedSuggestion[searchObject?.searchValue]) {
+        setSearchResults((prev) => ({
+          ...prev,
+          suggestions: cachedSuggestion[searchObject?.searchValue],
+        }));
+      } else {
+        getSuggestions();
+      }
+    }, 500);
+
+    return () => {
       clearTimeout(timer);
-    }
+    };
   }, [searchObject?.searchValue]);
 
   const getSuggestions = async () => {
@@ -46,7 +58,7 @@ const Header = () => {
         throw new Error("Request failed with status", data.status);
       }
       const jsonData = await data.json();
-      await setSearchResults(jsonData);
+      // await setSearchResults(jsonData);
       const topSuggestion = await jsonData?.items
         ?.slice(0, 7)
         ?.map((item) => item?.snippet?.title);
@@ -54,6 +66,10 @@ const Header = () => {
         ...prev,
         suggestions: topSuggestion,
       }));
+
+      if (searchObject?.searchValue) {
+        dispatch(addSuggestion({ [searchObject?.searchValue]: topSuggestion }));
+      }
     } catch (err) {
       console.log(err);
     }
